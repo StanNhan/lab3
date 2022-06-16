@@ -18,7 +18,7 @@ namespace lab3.Controllers
             _dbContext = new ApplicationDbContext();
         }
         public ActionResult Create()
-        {
+        {           
             var viewModel = new CourseViewModel
             {
                 Categories = _dbContext.Categories.ToList()

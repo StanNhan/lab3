@@ -22,3 +22,42 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.navbar-inverse {
+    background: rgb(62,169,77);
+    background: linear-gradient(90deg, rgba(62,169,77,1) 0%, rgba(168,87,105,1) 20%, rgba(191,55,211,1) 42%, rgba(50,104,226,1) 62%, rgba(170,188,55,1) 82%, rgba(0,212,255,1) 100%);
+    border-color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand{
+    color: white;
+}
+
+.course{
+    list-style: none
+}
+
+.course > li{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+    .course > li .date {
+        text-align: center;
+        background: rgb(83,180,58);
+        background: linear-gradient(22deg, rgba(83,180,58,1) 23%, rgba(252,69,69,1) 54%, rgba(69,147,252,1) 85%);
+        color: white;
+        width: 60px;
+        border-radius: 8px;
+    }
+
+.course > li .details{
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
+
